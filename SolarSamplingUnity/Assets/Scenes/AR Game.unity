@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &523408198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3762925190096255328, guid: 43a3a5801c1df47e5a5af505430691ce,
+    type: 3}
+  m_PrefabInstance: {fileID: 1119872137}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &584076834
 GameObject:
   m_ObjectHideFlags: 0
@@ -350,6 +356,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree Sampling
       objectReference: {fileID: 0}
+    - target: {fileID: 3762925190096255328, guid: 43a3a5801c1df47e5a5af505430691ce,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3762925190096255329, guid: 43a3a5801c1df47e5a5af505430691ce,
         type: 3}
       propertyPath: m_RootOrder
@@ -548,6 +559,8 @@ GameObject:
   - component: {fileID: 1393235769}
   - component: {fileID: 1393235768}
   - component: {fileID: 1393235770}
+  - component: {fileID: 1393235772}
+  - component: {fileID: 1393235771}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -599,6 +612,33 @@ MonoBehaviour:
   m_PlanePrefab: {fileID: 316978606639070850, guid: 2ba2bf3c8af014e85bf11c5f5d4eeaf1,
     type: 3}
   m_DetectionMode: 1
+--- !u!114 &1393235771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393235767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51b6d717f95814a06aad68aa83fb7953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TREEobj: {fileID: 523408198}
+  trackObj: {fileID: 0}
+--- !u!114 &1393235772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393235767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa17d122634046b4a8e23048891fafc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RaycastPrefab: {fileID: 0}
 --- !u!1 &1513373445
 GameObject:
   m_ObjectHideFlags: 0
