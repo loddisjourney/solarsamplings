@@ -457,7 +457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &478412145
 RectTransform:
   m_ObjectHideFlags: 0
@@ -613,7 +613,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5c611e2f139e448308f03a558c3413ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c701a567f4f6f4a8c92cf9e69226d32e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -827,7 +827,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 09caaf596207140ada3ed77738f88ccd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff0dfbd6492a541108762f92b2670dbe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1159,7 +1159,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -210.2}
-  m_SizeDelta: {x: 691.1, y: 50}
+  m_SizeDelta: {x: 823.4, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1268493403
 MonoBehaviour:
@@ -1183,8 +1183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Scan erfolgreich
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fec4621f8abb143ce994dc72e7fbfb30, type: 2}
-  m_sharedMaterial: {fileID: -8154189990233932351, guid: fec4621f8abb143ce994dc72e7fbfb30,
+  m_fontAsset: {fileID: 11400000, guid: 8561117b344a24344b48a74246a060db, type: 2}
+  m_sharedMaterial: {fileID: -8896505238725746560, guid: 8561117b344a24344b48a74246a060db,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
