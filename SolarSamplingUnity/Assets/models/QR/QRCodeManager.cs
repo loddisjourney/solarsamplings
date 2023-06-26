@@ -26,6 +26,6 @@ public class QRCodeManager : MonoBehaviour
 
     public void GoBack()
     {
-        SceneManager.LoadScene("MenuLogin");
+        SceneManager.LoadScene("Stats Menu");
     }
 }

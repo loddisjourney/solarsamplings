@@ -370,7 +370,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 87bb06365a8131849b532a897d881d2f,
+      objectReference: {fileID: 21300000, guid: 90f66b8fbd1fc4983b04088381413b67,
         type: 3}
     - target: {fileID: 8256090118317004472, guid: 02bc62a0323a454468f4f67314e9e898,
         type: 3}
@@ -501,7 +501,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1aef62c419f387b469a388cd2699d594,
+      objectReference: {fileID: 21300000, guid: a46dc4698628d4c1cb0769392024a896,
         type: 3}
     - target: {fileID: 1471565751090444036, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
         type: 3}
@@ -1264,6 +1264,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4940483661915982387, guid: 8eb84e0be1cc61f4296c51d36e853e81,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c00700a744d2e43e6aea56ad709a2a0e,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8eb84e0be1cc61f4296c51d36e853e81, type: 3}
 --- !u!224 &1449328222 stripped

@@ -11,6 +11,6 @@ public class loginButtonController : MonoBehaviour
         Scene thisMenu = SceneManager.GetActiveScene();
 
         SceneManager.LoadSceneAsync(SceneName);
-        SceneManager.UnloadSceneAsync(thisMenu);
+        //SceneManager.UnloadSceneAsync(thisMenu);
     }
 }
