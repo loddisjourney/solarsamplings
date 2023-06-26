@@ -1136,8 +1136,8 @@ RectTransform:
   m_GameObject: {fileID: 820804191}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.15, z: 0.15}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2095614591}
   m_Father: {fileID: 196980085}
@@ -1145,7 +1145,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17, y: -977}
+  m_AnchoredPosition: {x: 17, y: -1026}
   m_SizeDelta: {x: 7440.7686, y: 4160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &820804193
@@ -1213,8 +1213,8 @@ RectTransform:
   m_GameObject: {fileID: 1046814205}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.15, z: 0.15}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1837677714}
   m_Father: {fileID: 196980085}
@@ -1222,7 +1222,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17, y: 230}
+  m_AnchoredPosition: {x: 17, y: 227}
   m_SizeDelta: {x: 7440.7686, y: 4160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046814207
@@ -1571,6 +1571,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958751529}
     m_Modifications:
+    - target: {fileID: 8256090118317004471, guid: 02bc62a0323a454468f4f67314e9e898,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8256090118317004471, guid: 02bc62a0323a454468f4f67314e9e898,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1336966942}
+    - target: {fileID: 8256090118317004471, guid: 02bc62a0323a454468f4f67314e9e898,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1336966941}
+    - target: {fileID: 8256090118317004471, guid: 02bc62a0323a454468f4f67314e9e898,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ButtonPressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8256090118317004471, guid: 02bc62a0323a454468f4f67314e9e898,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: loginButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8256090118317004471, guid: 02bc62a0323a454468f4f67314e9e898,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8256090118317004472, guid: 02bc62a0323a454468f4f67314e9e898,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1689,6 +1719,25 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1336966939}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1336966941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8256090118317004473, guid: 02bc62a0323a454468f4f67314e9e898,
+    type: 3}
+  m_PrefabInstance: {fileID: 1336966939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1336966942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336966941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be8305bc04e75045aea0393289fb5ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: Game Menu
 --- !u!1 &1435203364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1716,8 +1765,8 @@ RectTransform:
   m_GameObject: {fileID: 1435203364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.16, y: 0.15, z: 0.15}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 542619500}
   m_Father: {fileID: 196980085}
@@ -1725,7 +1774,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 17, y: -375}
+  m_AnchoredPosition: {x: 17, y: -400}
   m_SizeDelta: {x: 7440.7686, y: 4160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1435203366
@@ -2052,6 +2101,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4940483661915982386, guid: 8eb84e0be1cc61f4296c51d36e853e81,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8eb84e0be1cc61f4296c51d36e853e81, type: 3}
 --- !u!224 &2033070536 stripped
@@ -2071,6 +2125,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: DashboardButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471565751090444038, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471565751090444038, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2045589724}
+    - target: {fileID: 1471565751090444038, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 2045589723}
+    - target: {fileID: 1471565751090444038, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ButtonPressed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471565751090444038, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: loginButtonController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1471565751090444038, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1471565751090444039, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
         type: 3}
@@ -2185,6 +2269,25 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2045589721}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2045589723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1471565751090444036, guid: db0a5fc662dbcd540ace6d5e3f74b3b5,
+    type: 3}
+  m_PrefabInstance: {fileID: 2045589721}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2045589724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045589723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be8305bc04e75045aea0393289fb5ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: MenuDashboard
 --- !u!1 &2095614590
 GameObject:
   m_ObjectHideFlags: 0
