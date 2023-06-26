@@ -15,6 +15,8 @@ public class ar_raycast_manager : MonoBehaviour
     ARPlaneManager planeMan;
     public GameObject trackObj;
 
+    public GameObject canvasObj;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,7 +40,7 @@ public class ar_raycast_manager : MonoBehaviour
                     TREEobj.transform.position = hitpose.position;
                     //momoobj.transform.rotation = hitpose.rotation;
                     TREEobj.SetActive(true);
-
+                    canvasObj.SetActive(true);
                     arrayman.enabled = false;
                     scriptSelf.enabled = false;
                     planeMan.enabled = false;
