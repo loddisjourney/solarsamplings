@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/AR Game.unity
     guid: a7ae855441fde425da118c7628dcba74
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Scenes/MenuLogin.unity
     guid: 9aa9738f6145f5e4f8e7a9e7d955f7fa
+  - enabled: 1
+    path: Assets/Scenes/MenuQR.unity
+    guid: 5e6ec94d674bbd046be4fb337fa960be
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 96f8335ef53dc4df99929188e1f2285f,
       type: 2}
