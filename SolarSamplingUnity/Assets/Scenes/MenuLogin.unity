@@ -729,7 +729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7be8305bc04e75045aea0393289fb5ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneName: MenuDashboard
+  SceneName: Stats Menu
 --- !u!1 &407894275
 GameObject:
   m_ObjectHideFlags: 0
