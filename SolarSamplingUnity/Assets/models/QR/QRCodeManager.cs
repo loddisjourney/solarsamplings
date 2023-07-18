@@ -7,6 +7,7 @@ public class QRCodeManager : MonoBehaviour
 {
     public GameObject qrCodeScannedAnim;
     private GameObject qrObj;
+    public static bool qrScanned;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class QRCodeManager : MonoBehaviour
         if(qrObj != null)
         {
             qrCodeScannedAnim.SetActive(true);
+            qrScanned = true;
         }
     }
 

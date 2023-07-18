@@ -9,13 +9,16 @@ public class MenuSmapling : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        samplerAnim.SetBool("Tree Growing", true);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if(QRCodeManager.qrScanned)
+        {
+            samplerAnim.SetBool("Tree Growing", true);
+        }
     }
 
 
