@@ -39,6 +39,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3762925190096255329}
     m_Modifications:
+    - target: {fileID: -8736006200543450024, guid: 852436b078e7e41ceb7839f5b7df2357,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a24d80e6c44524bdaa3a3bb0e3adf24d, type: 2}
     - target: {fileID: -8679921383154817045, guid: 852436b078e7e41ceb7839f5b7df2357,
         type: 3}
       propertyPath: m_RootOrder
@@ -99,6 +104,16 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 852436b078e7e41ceb7839f5b7df2357,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 48575563fe75a42dfa614c3339f60df3, type: 2}
+    - target: {fileID: -5945827575932964647, guid: 852436b078e7e41ceb7839f5b7df2357,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a24d80e6c44524bdaa3a3bb0e3adf24d, type: 2}
     - target: {fileID: -204295973582607842, guid: 852436b078e7e41ceb7839f5b7df2357,
         type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -114,6 +129,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: sampling
       objectReference: {fileID: 0}
+    - target: {fileID: 2294346153734269382, guid: 852436b078e7e41ceb7839f5b7df2357,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7215659940702039674, guid: 852436b078e7e41ceb7839f5b7df2357,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a24d80e6c44524bdaa3a3bb0e3adf24d, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 852436b078e7e41ceb7839f5b7df2357, type: 3}
 --- !u!4 &3725077205677723848 stripped
